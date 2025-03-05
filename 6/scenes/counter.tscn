@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvjn0hpsu4jk1"]
+
+[ext_resource type="Texture2D" uid="uid://cciy0e0imrbt4" path="res://6/assets/gui/label_HP_bg.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cpqgbual8p4sb" path="res://6/assets/gui/bombs_icon.png" id="2"]
+[ext_resource type="Theme" path="res://6/theme.tres" id="3"]
+
+[node name="Counter" type="NinePatchRect"]
+custom_minimum_size = Vector2(72, 42)
+texture = ExtResource("1")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Icon" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -55.0
+offset_top = -52.0
+offset_right = 25.0
+offset_bottom = 28.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 5.0
+offset_top = -10.0
+offset_right = 21.0
+offset_bottom = 9.0
+grow_vertical = 2
+theme = ExtResource("3")
+text = "10"
+horizontal_alignment = 1
+vertical_alignment = 1
