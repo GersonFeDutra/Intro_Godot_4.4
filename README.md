@@ -6,3 +6,6 @@ Projeto de demonstrações, exemplos e exercícios da Godot 4.4 para a grade "In
 
 - 0-6: demonstrações
 - desafio_1: exercícios
+
+> [!NOTE]
+> Art by [Sweet](https://x.com/Sweetswppi).
