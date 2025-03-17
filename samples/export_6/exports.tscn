@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bknn12obnyuit"]
+
+[ext_resource type="Script" uid="uid://d3pjtq662aunv" path="res://samples/export_6/exports.gd" id="1_de0ja"]
+
+[node name="Exports" type="Node"]
+script = ExtResource("1_de0ja")
+character_speed = 30
+character_name = "Rebecca"

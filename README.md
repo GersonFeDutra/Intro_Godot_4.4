@@ -4,8 +4,24 @@ Projeto de demonstrações, exemplos e exercícios da Godot 4.4 para a grade "In
 
 ## Conteúdo
 
-- 0-6: demonstrações
-- desafio_1: exercícios
+- [Demonstrações](./demos/)
+    1. [Interface Gráfica do Usuário](./demos/gui/README.md)
+    2. [Jogos 2D](./demos/2d/0/README.md)
+- [Desafios](./desafios/)
+
+
+## Material complementar:
+
+### Por onde começar
+
+- Seu primeiro jogo 2D com [Brackeys](https://youtu.be/LOhfqjmasi0).
+
+### Guias
+
+- [Mecânicas 2D com Gdquest](https://www.gdquest.com/tutorial/godot/2d/first-2d-game-godot-4/).
+
+
+----
 
 > [!NOTE]
 > Art by [Sweet](https://x.com/Sweetswppi).

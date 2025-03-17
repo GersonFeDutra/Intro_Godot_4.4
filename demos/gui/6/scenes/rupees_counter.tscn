@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvq6pq126i0vb"]
+
+[ext_resource type="PackedScene" uid="uid://cvjn0hpsu4jk1" path="res://demos/gui/6/scenes/counter.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bowv05nmb731" path="res://demos/gui/6/assets/gui/rupees_icon.png" id="2"]
+
+[node name="RupeesCounter" instance=ExtResource("1")]
+
+[node name="Icon" parent="." index="0"]
+texture = ExtResource("2")

@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://18qg0fomg6wc"]
+
+[ext_resource type="Script" uid="uid://copyuvxcjmyod" path="res://samples/export_4/exports.gd" id="1_ygtl1"]
+
+[sub_resource type="Resource" id="Resource_ygtl1"]
+
+[sub_resource type="AnimationNodeOneShot" id="AnimationNodeOneShot_ygtl1"]
+
+[node name="Exports" type="Node" node_paths=PackedStringArray("node", "some_button")]
+script = ExtResource("1_ygtl1")
+transition_speed = 0.201711
+col = Color(0, 0, 0, 0.403922)
+col_b = Color(0.821789, 0.821789, 0.821789, 1)
+node = NodePath(".")
+some_button = NodePath("ChildButton")
+node_path = NodePath("OtherNode")
+other_button = NodePath("OtherNode/TouchScreenButton")
+resource = SubResource("Resource_ygtl1")
+animation_node = SubResource("AnimationNodeOneShot_ygtl1")
+
+[node name="ChildButton" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="OtherNode" type="Node" parent="."]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="OtherNode"]

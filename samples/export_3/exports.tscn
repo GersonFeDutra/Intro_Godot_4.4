@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://c51ynbqrm6sqn"]
+
+[ext_resource type="Script" uid="uid://ctypkogy5rr3u" path="res://samples/export_3/exports.gd" id="1_va6ni"]
+
+[node name="Exports" type="Node"]
+script = ExtResource("1_va6ni")
+text_file = "res://demos/export_3/example.txt"
+tool_image = "C:/Users/gerso/Mega/Projetos/Intro_Godot_4.4/icon.png"
+tool_dir = "C:/Users/gerso/Mega/Projetos/Intro_Godot_4.4/demos"
+text = "Lorem
+ipsun
+dolor
+sit amet."
+i = 20.0
+j = -10.0
+l = 101
+exponential = 1000.0
+m = 2
+angle = 6.28319

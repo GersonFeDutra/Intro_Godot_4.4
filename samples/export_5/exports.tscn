@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca6eyclfjfpg2"]
+
+[ext_resource type="Script" uid="uid://dqw7b6hx4r345" path="res://samples/export_5/exports.gd" id="1_x6fvq"]
+
+[node name="Exports" type="Node"]
+script = ExtResource("1_x6fvq")
+spell_targets = 12
+spell_targets_b = 12
+layers_2d_physics = 10
+layers_2d_render = 4
+layers_2d_navigation = 4

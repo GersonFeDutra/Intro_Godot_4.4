@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm6d2h5rgmf2q"]
+
+[ext_resource type="Script" uid="uid://0t3x4hil0gkr" path="res://samples/export_8/exports.gd" id="1_ev2ps"]
+
+[node name="Exports" type="Node"]
+script = ExtResource("1_ev2ps")

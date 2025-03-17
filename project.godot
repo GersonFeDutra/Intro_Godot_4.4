@@ -12,9 +12,18 @@ config_version=5
 
 config/name="Hello World"
 config/tags=PackedStringArray("class")
-run/main_scene="res://0/hello.tscn"
+run/main_scene="res://demos/gui/0/hello.tscn"
 config/features=PackedStringArray("4.4")
 config/icon="res://icon.png"
+
+[file_customization]
+
+folder_colors={
+"res://demos/2d/": "blue",
+"res://demos/gui/": "teal",
+"res://desafios/2d/": "blue",
+"res://desafios/gui/": "teal"
+}
 
 [rendering]
 

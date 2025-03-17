@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://bggw1xgudjgc6"]
+
+[ext_resource type="PackedScene" uid="uid://cvjn0hpsu4jk1" path="res://demos/gui/6/scenes/counter.tscn" id="1"]
+
+[node name="BombsCounter" instance=ExtResource("1")]
+custom_minimum_size = Vector2(72, 42)
+offset_right = 72.0
+offset_bottom = 42.0
+
+[node name="Icon" parent="." index="0"]
+layout_mode = 1
+anchors_preset = 6
+offset_left = -54.0
+offset_top = -48.5
+offset_right = 26.0
+offset_bottom = 31.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Label" parent="." index="1"]
+layout_mode = 1
+anchors_preset = 4
+offset_left = 8.0
+offset_top = -7.5
+offset_right = 24.0
+offset_bottom = 11.5
+grow_vertical = 2
+horizontal_alignment = 1
+vertical_alignment = 1
