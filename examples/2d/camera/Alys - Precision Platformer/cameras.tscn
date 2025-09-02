@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dsnt7a23gchq5"]
+
+[node name="Cameras" type="Node2D"]
+
+[node name="FixedCamera" type="Camera2D" parent="."]
+
+[node name="AttachedCamera" type="Camera2D" parent="."]
+
+[node name="RemoteCamera" type="Camera2D" parent="."]
+
+[node name="CGICamera" type="Camera2D" parent="."]
