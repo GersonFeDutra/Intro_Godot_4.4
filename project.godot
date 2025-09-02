@@ -22,7 +22,9 @@ folder_colors={
 "res://demos/2d/": "blue",
 "res://demos/gui/": "teal",
 "res://desafios/2d/": "blue",
-"res://desafios/gui/": "teal"
+"res://desafios/gui/": "teal",
+"res://examples/2d/": "blue",
+"res://examples/2d/tilemap/": "blue"
 }
 
 [rendering]

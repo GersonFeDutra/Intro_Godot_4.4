@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://30at2xp7aal4"]
+
+[ext_resource type="Texture2D" uid="uid://chhttw1gruncu" path="res://examples/2d/tilemap/assets/kenney_abstract_platformer.png" id="1_al600"]
+
+[node name="TileSheet" type="Sprite2D"]
+texture = ExtResource("1_al600")
+centered = false
