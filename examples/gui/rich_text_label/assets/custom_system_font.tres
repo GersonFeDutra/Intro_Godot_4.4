@@ -1,0 +1,5 @@
+[gd_resource type="SystemFont" format=3 uid="uid://cddxf70m8ig17"]
+
+[resource]
+font_names = PackedStringArray("Comic Sans MS")
+font_italic = true

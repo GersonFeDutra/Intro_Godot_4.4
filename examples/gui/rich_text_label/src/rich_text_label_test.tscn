@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7un4vwbfkow5"]
+
+[ext_resource type="Texture2D" uid="uid://6vw5afcpop8e" path="res://examples/gui/9patchrect/assets/nine-patch-rect-textures.png" id="1_4kggn"]
+
+[node name="RichTextLabelTest" type="NinePatchRect"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 459.0
+grow_horizontal = 2
+texture = ExtResource("1_4kggn")
+region_rect = Rect2(268, 664, 128, 128)
+patch_margin_left = 34
+patch_margin_top = 33
+patch_margin_right = 32
+patch_margin_bottom = 34
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer"]
+layout_mode = 2
+bbcode_enabled = true
+text = "[b]Negrito[/b] [i]Itálico[/i] [u]Sublinhado[/u] [s]Riscado[/s]
+[color=#ff5555]Vermelho[/color] [color=blue]Azul[/color] [font_size=18]Maior[/font_size] [font_size=8]Menor[/font_size]
+[bgcolor=black]Cor de fundo[/bgcolor]
+[center]Centralizado[/center] [left]Esquerda[/left] [right]Direita[/right]
+[url=https://godotengine.org]LinkGodot[/url]
+[img]res://icon.png[/img]  # (precisa existir em res:// e o RichTextLabel pode requerer configuração de imagens)
+[font=\"res://examples/gui/rich_text_label/assets/custom_system_font.tres\"]FontePersonalizada[/font] 
+[wave]Onda[/wave] [shake]Tremor[/shake] [rainbow]Arco-Íris[/rainbow]
+[ul]Item1
+Item2[/ul]
+[table=3,center]
+[cell]C1[/cell][cell]C2[/cell][cell]C3[/cell]
+[cell]A[/cell][cell]B[/cell][cell]C[/cell]
+[cell]1[/cell][cell]2[/cell][cell]3[/cell]
+[/table]
+[code]monospace_code();[/code]
+"
